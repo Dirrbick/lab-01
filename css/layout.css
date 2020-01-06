@@ -1,0 +1,90 @@
+body {
+  width: 480px;
+  margin: auto;
+}
+
+header {
+  width: 480px;
+  height: 75px;
+  margin: auto;
+}
+
+aside {
+  width: 480px;
+  height: 150px;
+  border-top: none;
+  margin: auto;
+
+}
+
+.pairDiv1, .pairDiv2 {
+  width: 480px;
+  height: 125px;
+  margin: auto;
+
+}
+
+.quadSection {
+  width: 480px;
+  height: 500px;
+  margin: auto;
+}
+.quadDiv1, .quadDiv3 {
+  width: 240px;
+  height: 250px;
+  float: left;
+  margin: auto;
+}
+.quadDiv2, .quadDiv4 {
+  width: 240px;
+  height: 250px;
+  float: right;
+  margin: auto;
+
+}
+
+
+footer {
+  width: 480px;
+  height: 80px;
+  margin: auto;
+  clear: both;
+}
+
+@media(min-width: 768px){
+  body {
+    width: 960px;
+  }
+  header {
+    width: 960px;
+    height: 100px;
+  }
+  main {
+    width: 760px;
+    float: right;
+  }
+  aside {
+    width:200px;
+    height: 600px;
+    float: left;
+  }
+  .pairDiv1, .pairDiv2 {
+    width: 380px;
+    height: 200px;
+    float: left;
+  }
+  .quadSection {
+    clear: both;
+    width: 760px;
+    height: 250px;
+  }
+  .quadDiv1, .quadDiv2, .quadDiv3, .quadDiv4 {
+    width: 190px;
+    height: 250px;
+    float: left;
+  }
+  footer {
+    width: 760px;
+    height: 150px;
+  }
+}
